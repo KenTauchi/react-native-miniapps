@@ -7,6 +7,7 @@ const ColorCounter = ({ color, onInc, onDec, amount }) => {
   return (
     <View>
       <Text>{color}</Text>
+      <Text>{amount}</Text>
 
       {amount >= 255 ? (
         <Button title="Can't be over 255" />
